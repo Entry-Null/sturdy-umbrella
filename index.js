@@ -1,7 +1,7 @@
 const js_socket = require("ws")
 
 
-// Establishing Connection 
+// Connection 
 let sock_cache = []
 const sock = new js_socket.Server({port:88})
 
